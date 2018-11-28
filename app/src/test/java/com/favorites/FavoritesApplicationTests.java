@@ -46,6 +46,11 @@ public class FavoritesApplicationTests {
 				.andExpect(content().string("Bath"));
 	}
 
+	/**
+	 * review
+	 * @throws Exception
+	 */
+
 	@Test
 	public void testJmx() throws Exception {
 		assertThat(ManagementFactory.getPlatformMBeanServer()
